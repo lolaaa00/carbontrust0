@@ -24,11 +24,11 @@ confidence-scored impact assessments using a GenLayer Intelligent Contract.
 
 ```bash
 npm install
-copy .env.example .env.local
+cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3003](http://localhost:3003).
 
 ## Environment
 
@@ -37,7 +37,8 @@ The supplied `.env.example` configures:
 - GenLayer StudioNet RPC
 - Chain ID `61999`
 - GenLayer explorer
-- Deployed CarbonTrust contract
+- Deployed CarbonTrust contract: `0x990BF630724c1B636b19412B97Dc75F3F79CEFC7`
+  ([view on explorer](https://explorer-studio.genlayer.com))
 
 Use a test-only wallet when interacting with StudioNet.
 
