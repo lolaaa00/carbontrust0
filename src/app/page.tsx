@@ -118,7 +118,7 @@ export default function HomePage() {
         <h1
           style={{
             fontFamily: "var(--sg)",
-            fontSize: "clamp(3rem,9.5vw,7.25rem)",
+            fontSize: "clamp(2rem,4vw,3.5rem)",
             fontWeight: 700,
             letterSpacing: "-0.04em",
             lineHeight: 0.94,

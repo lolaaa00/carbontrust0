@@ -79,10 +79,15 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-color: #072D33;
     font-feature-settings: "rlig" 1, "calt" 1;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    /* Define --sg and --mono here so they can read the Next.js font variables
+       which are injected on <body> — :root cannot inherit from body */
+    --sg:   var(--font-sg, 'Space Grotesk'), system-ui, sans-serif;
+    --mono: var(--font-mono, 'JetBrains Mono'), monospace;
   }
 }
 
@@ -105,9 +110,9 @@
 ═══════════════════════════════════════════ */
 .ct-mesh { position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden; }
 .ct-orb  { position:absolute;border-radius:50%;filter:blur(110px); }
-.ct-o1   { width:640px;height:640px;background:radial-gradient(circle,rgba(58,117,100,0.45) 0%,transparent 70%);top:-180px;left:-120px;animation:ct-d1 28s ease-in-out infinite alternate; }
-.ct-o2   { width:540px;height:540px;background:radial-gradient(circle,rgba(51,9,27,0.5) 0%,transparent 70%);bottom:-140px;right:-100px;animation:ct-d2 34s ease-in-out infinite alternate; }
-.ct-o3   { width:380px;height:380px;background:radial-gradient(circle,rgba(223,190,139,0.18) 0%,transparent 70%);top:40%;left:55%;animation:ct-d3 22s ease-in-out infinite alternate; }
+.ct-o1   { width:640px;height:640px;background:radial-gradient(circle,rgba(58,117,100,0.6) 0%,transparent 70%);top:-180px;left:-120px;animation:ct-d1 28s ease-in-out infinite alternate; }
+.ct-o2   { width:540px;height:540px;background:radial-gradient(circle,rgba(51,9,27,0.65) 0%,transparent 70%);bottom:-140px;right:-100px;animation:ct-d2 34s ease-in-out infinite alternate; }
+.ct-o3   { width:380px;height:380px;background:radial-gradient(circle,rgba(223,190,139,0.28) 0%,transparent 70%);top:40%;left:55%;animation:ct-d3 22s ease-in-out infinite alternate; }
 
 /* ═══════════════════════════════════════════
    NAVBAR

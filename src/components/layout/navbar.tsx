@@ -18,7 +18,14 @@ export function Navbar() {
 
   return (
     <>
-      <header className="ct-nav">
+      <header
+        className="ct-nav"
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
         {/* Logo */}
         <Link
           href="/"

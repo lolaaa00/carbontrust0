@@ -3,10 +3,11 @@
   "configurations": [
     {
       "name": "carbontrust",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "/Users/dami/Downloads/CarbonTrust/node_modules/.bin/next",
+      "runtimeArgs": ["dev", "--port", "3003"],
       "port": 3003,
-      "autoPort": false
+      "cwd": "/Users/dami/Downloads/CarbonTrust",
+      "autoPort": true
     }
   ]
 }

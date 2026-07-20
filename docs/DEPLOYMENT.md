@@ -2,13 +2,13 @@
 
 ## Contract (StudioNet) — DEPLOYED
 
-**Contract Address:** `0x02D486343162299Fce84E015Fb111655C2f3520D`
+**Contract Address:** `0x990BF630724c1B636b19412B97Dc75F3F79CEFC7`
 
 **Explorer:** https://explorer-studio.genlayer.com
 
 **Verification:**
 1. Visit https://explorer-studio.genlayer.com
-2. Search for `0x02D486343162299Fce84E015Fb111655C2f3520D`
+2. Search for `0x990BF630724c1B636b19412B97Dc75F3F79CEFC7`
 3. Verify contract methods and state
 
 ## Frontend (Vercel)
@@ -25,7 +25,7 @@
 | `NEXT_PUBLIC_GENLAYER_RPC_URL` | `https://studio.genlayer.com/api` |
 | `NEXT_PUBLIC_GENLAYER_CHAIN_ID` | `61999` |
 | `NEXT_PUBLIC_GENLAYER_EXPLORER_URL` | `https://explorer-studio.genlayer.com` |
-| `NEXT_PUBLIC_CONTRACT_ADDRESS` | `0x02D486343162299Fce84E015Fb111655C2f3520D` |
+| `NEXT_PUBLIC_CONTRACT_ADDRESS` | `0x990BF630724c1B636b19412B97Dc75F3F79CEFC7` |
 
 6. Click Deploy
 
